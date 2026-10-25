@@ -1,0 +1,12 @@
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.txt -text
+*.ipynb -text
+*.pptx binary
+*.png binary
+# Preserve supplied evidence byte-for-byte, including original whitespace.
+/data/raw/** -text -whitespace
+/requirements.txt text eol=lf
+*.yml text eol=lf
+*.toml text eol=lf
